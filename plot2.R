@@ -1,7 +1,7 @@
 plot2<-function(){
   #load data
-  #HPC<-read.delim(paste(getwd(),"/household_power_consumption.txt",sep=""),sep=";")
-  HPC<-household_power_consumption
+  HPC<-read.delim(paste(getwd(),"/household_power_consumption.txt",sep=""),sep=";")
+  #HPC<-household_power_consumption
   
 
   #make power a number instead of factor
